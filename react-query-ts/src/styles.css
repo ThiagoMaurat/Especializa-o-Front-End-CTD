@@ -1,0 +1,46 @@
+header {
+  display: flex;
+  justify-content: center;
+}
+
+header button {
+  margin: 16px;
+  font-size: 26px;
+}
+
+h1 {
+  font-size: 48px;
+  text-align: center;
+}
+
+#list {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#favorites {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.active {
+  color: blue;
+}
+
+.character {
+  border: solid 1px lightgray;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.favorite {
+  border-color: wheat;
+  border-width: 3px;
+}
